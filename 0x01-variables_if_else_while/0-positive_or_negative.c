@@ -1,8 +1,9 @@
 #include <stdlib.h>
 #include <time.h>
 #include <stdio.h>
+
 /**
- * main - prints if number is positive, zero or negative
+ * main - Prints if number is positive, zero or negative
  * Return: Success
  *
  */
@@ -22,7 +23,8 @@ int main(void)
 	}
 	else
 	{
-	printf("%d is negative/n", n);
+	printf("%d is negative\n", n);
 	}
 	return (0);
 }
+
